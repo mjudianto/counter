@@ -1,0 +1,35 @@
+.container > h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 200px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 0%;
+}
+
+.container > .button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 5px;
+    font-variant-caps: all-small-caps;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 100px;
+}
